@@ -1,7 +1,8 @@
+var debug = 0
+
 var api_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 var d_name = "BOLTXXXXXX";
 var base_url = "https://cloud.boltiot.com/remote/"
-
  
 
 function digitalWrite(pin,val){
