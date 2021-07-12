@@ -2,7 +2,7 @@
 
 ## STEPS TO USE THE SCRIPTS
 
-1 -> See for a Green Colored <code><b>Code</b></code> button on top right of the repository. Click on that. <br>
+1 -> See for a Green Colored <code><b>📥Code</b></code> button on top right of the repository. Click on that. <br>
 2 -> Download ZIP <br>
 3 -> Go to Downloads Folder > Extract the folder in any location (Extract it there, your choice) <br>
 4 -> Make sure the folders <code>Basic Button</code>, <code>Read Function</code> and <code>Write Function</code> are in same folder for easy access and understanding. <br>
