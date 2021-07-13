@@ -40,7 +40,7 @@ ReadAll();
 
 
 const interval = setInterval(function(){
-                    digitalRead(2);
+                    digitalRead(0);
                 }, 500);  
 
 
