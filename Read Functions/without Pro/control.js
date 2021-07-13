@@ -14,16 +14,16 @@ function digitalRead(pin) {
             if(obj.success=="1"){
                 if(obj.value=="1"){
                     document.getElementById("WINDOW").classList.add("on");
-                    window.localStorage.setItem("WINDOW", "on"); 
+                    window.sessionStorage.setItem("WINDOW", "on"); 
                 }   
                 else if (obj.value=="0"){
                     document.getElementById("WINDOW").classList.remove("on");
-                    localStorage.removeItem("WINDOW");  
+                    sessionStorage.removeItem("WINDOW");  
                 }
             }    
 
             else{
-                    alert("Error = "+xmlhttp.responseText);
+                    alert("Error = "+obj.value);
             }
         }
     };
@@ -38,7 +38,7 @@ function OnClick(){
 }
 
 function ReadAll(){
-    if (window.localStorage.getItem('WINDOW') == 'on'){
+    if (window.sessionStorage.getItem('WINDOW') == 'on'){
         document.getElementById("WINDOW").classList.add("on"); 
     }
 }
