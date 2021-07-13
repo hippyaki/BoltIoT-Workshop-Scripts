@@ -9,10 +9,12 @@
 5 -> <code>Read Function</code> and <code>Write Function</code> have circuit diagrams in each folder. Make sure to have the circuit ready. <br>
 6 -> <code>Read Function</code> and <code>Write Function</code> also have README.md file in them. Go through the instructions to avoid errors.
 
+<br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52236719/125461009-bbdbcecb-7615-40d1-9aca-0900c82c9697.png" width="540" height="350"><br>
+  <h3 align="center">Overall Circuit Diagram</h3>
+</p>
 
-
-
-
-<br><br><br><br><br><br>
+<br><br>
 
 The repository will be updated time-to-time with new content and instructions. Make sure to be an active participant of the Github Community.
