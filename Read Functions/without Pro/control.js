@@ -34,7 +34,7 @@ function digitalRead(pin) {
 
 function OnClick(){
 
-    digitalRead(2);
+    digitalRead(0);
 }
 
 function ReadAll(){
