@@ -41,7 +41,7 @@ ReadAll();
 
 const interval = setInterval(function(){
                     digitalRead(0);
-                }, 500);  
+                }, 500);  //500ms = 0.5s
 
 
 
