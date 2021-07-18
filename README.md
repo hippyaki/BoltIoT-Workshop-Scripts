@@ -16,7 +16,7 @@
 </p>
 
 <br>
-For detailed understanding, visit the link for the Presentation file - https://drive.google.com/file/d/1bGWIDk2DgMOZ8ABZ5a4Y3y5o4tERuJxb/view?usp=sharing
+For detailed understanding, check the file <code>Custom Dashboard for Bolt-IoT.pdf</code>
 <br><br>
 
 The repository will be updated time-to-time with new content and instructions. Make sure to be an active participant of the Github Community.
