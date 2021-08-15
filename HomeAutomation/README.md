@@ -19,11 +19,7 @@
 
 <br><br><br>
 
-## Step 1 (Bolt Credentials)
-
-Add your **API-KEY** and **DEVICE-ID** in `js/control.js` folder in **api_key** and **dev_arr** repectively.
-
-## Step 2 (Weather Credentials)
+## IMPORTANT (For Weather)
 
 1. Visit https://openweathermap.org/api and sign up to create an account. 
 2. After signing in, visit https://home.openweathermap.org/api_keys and copy you API key.
