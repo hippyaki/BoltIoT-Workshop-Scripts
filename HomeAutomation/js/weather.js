@@ -6,7 +6,7 @@ $(document).ready(function() {
   function success(pos){
     var lat = pos.coords.latitude;
     var long = pos.coords.longitude;
-    var api = "c738694dc1412c06e255d86b7401901e";
+    var api = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"; //weather api
     weather(lat, long, api);
   }
 
