@@ -1,0 +1,518 @@
+html,body{
+    padding-top: 2px;
+}
+h3{
+    font-family:Itim,handwriting;
+    color:#1ECD97 ;
+    font-size: 16px;
+}
+
+#buttons{
+     float: left;
+     margin-left: 8%;
+     margin-top: 170px;
+     position: relative;
+     padding-top: 100px;
+
+}
+
+
+#Weather{
+
+    margin-right: 90px;
+    float: left;
+    margin-left: 12%;
+    max-width: 500px;
+    padding-top: 170px;
+
+
+    
+}
+
+#Floor {
+    
+    
+    color: BLACK;
+    width: 400px;
+    height: 400px; 
+  /*  background-color: #5a5d61; */
+    
+    position: relative;
+    float: left;
+    margin-left: 5%;
+    padding-top: 0px;
+    margin-top: 150px;
+
+    border: 3px solid #1ECD97;
+    border-radius: 5px;
+}
+#Phase1{
+
+    width: 100%;
+    height: 33%; 
+    padding-bottom: 20px;
+    display: block;    
+
+}
+#R1 {
+    width: 30%;
+    height: 80%; 
+    float: left;
+
+    background-color: #3f4245;
+    border: 3px solid #3f4245;  
+    border-radius: 3px;
+
+    transition: 0.3s ease;
+
+    line-height: 650%;
+    color: #1ECD97;
+    font-family:Itim,handwriting;
+
+}    
+#R1:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    background-color:#505357;
+    border: 3px solid #505357;
+}
+
+#R1.on{
+    background-color: #1ECD97;
+    border: 3px solid #1ECD97;
+    color: #5a5d61;
+}
+
+
+#R2 {
+    width: 30%;
+    height: 80%;
+    float: left;
+    margin-left: 40px;
+    
+    background-color: #3f4245;
+    border: 3px solid #3f4245; 
+    border-radius: 3px;
+
+    transition: 0.3s ease;
+
+    line-height: 650%;
+    color: #1ECD97;
+    font-family:Itim,handwriting;
+
+  
+}
+#R2:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    background-color:#505357;
+    border: 3px solid #505357;
+} 
+
+#R2.on{
+    background-color: #1ECD97;
+    border: 3px solid #1ECD97;
+    color: #5a5d61;
+
+}
+
+
+
+#R3 {
+    width: 15%;
+    height: 80%;
+    float: right; 
+     
+    background-color: #3f4245;
+    border: 3px solid #3f4245;
+    border-radius: 3px;
+
+    transition: 0.3s ease;
+
+    line-height: 650%;
+    color: #1ECD97;
+    font-family:Itim,handwriting;
+
+  
+}
+/*#R3.on{
+    background-color: #1ECD97;
+} */
+#R3:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    background-color: #505357;
+    border: 3px solid #505357;
+} 
+
+#Phase2{
+
+    width: 100%;
+    height: 33%; 
+    padding-top: 10px;
+    display: block;
+    
+
+}
+#R4 {
+    width: 15%;
+    height: 80%; 
+    float: left;
+
+    background-color: #3f4245;
+    border: 3px solid #3f4245;
+    border-radius: 3px;
+
+    transition: 0.3s ease;
+
+    line-height: 650%;
+    color: #1ECD97;
+    font-family:Itim,handwriting;
+
+}  
+/*#R4.on{
+    background-color: #1ECD97;
+}*/ 
+
+#R4:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    background-color:#505357;
+    border: 3px solid #505357;
+} 
+
+
+#R5 {
+    width: 30%;
+    height: 80%;
+    float: left;
+    
+    margin-left: 45px;
+    
+    background-color: #3f4245;
+    border: 3px solid #3f4245;
+    border-radius: 3px;
+
+    transition: 0.3s ease;
+
+    line-height: 650%;
+    color: #1ECD97;
+    font-family:Itim,handwriting;
+  
+}  
+#R5:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    background-color:#505357;
+    border: 3px solid #505357;
+}  
+
+#R5.on{
+    background-color: #1ECD97;
+    border: 3px solid #1ECD97;
+    color: #5a5d61;
+}
+
+
+#R6 {
+    width: 30%;
+    height: 80%;
+    float: right;
+     
+    background-color: #3f4245;
+    border: 3px solid #3f4245;
+    border-radius: 3px;
+
+    transition: 0.3s ease;
+    line-height: 650%;
+    color: #1ECD97;
+    font-family:Itim,handwriting;
+  
+}
+#R6:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    background-color:#505357;
+    border: 3px solid #505357;
+}
+#R6.on{
+    background-color: #1ECD97;
+    border: 3px solid #1ECD97;
+    color: #5a5d61;
+}
+
+
+#Phase3{
+
+    width: 100%;
+    height: 19%; 
+    padding-top: 34px;
+    display: block;
+
+}
+#R7 {
+    width: 55%;
+    height: 95%; 
+    float: left;
+    
+    background-color: #3f4245;
+    border: 3px solid #3f4245;
+    border-radius: 3px; 
+
+    transition: 0.3s ease; 
+
+    line-height: 450%;
+    color: #1ECD97;
+    font-family:Itim,handwriting;
+  
+}
+#R7:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    background-color:#505357;
+    border: 3px solid #505357;
+} 
+#R7.on{
+    background-color: #1ECD97;
+    border: 3px solid #1ECD97;
+    color: #5a5d61;
+}
+   
+
+#R8 {
+    width: 28%;
+    height: 95%;
+    float: right;
+    
+    background-color: #3f4245;
+    border: 3px solid #3f4245;
+    border-radius: 3px;
+    
+    transition: 0.3s ease;
+
+    line-height: 450%;
+    color: #1ECD97;
+    font-family:Itim,handwriting;
+
+  
+} 
+/*#R8.on{
+    background-color: #1ECD97;
+}*/
+#R8:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    background-color:#505357;
+    border: 3px solid #505357;
+}
+
+#Extra{
+    margin-top: 600px;
+    padding-left: 32%;
+}
+
+#shutbtn{
+    background-color: #393E46;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+
+    margin-left: 5%;
+    margin-top: 20px;
+}
+#shutbtn:hover {
+  background-color: #5b5f66;
+}
+
+#motionbtn{
+    background-color: #393E46;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 12px;
+
+
+   
+}
+#motionbtn:hover {
+  background-color: #5b5f66;
+}
+
+#alrt{
+    margin-left: 520px;
+    margin-bottom: 20px;
+}
+
+#api{
+    background-color: #393E46;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 10px;
+    margin-left: 20px;
+    border-radius: 12px;
+    outline: none;
+}
+
+#device{
+    background-color: #393E46;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 10px;
+    margin-left: 20px;
+    border-radius: 12px;
+    outline: none;
+}
+
+/* Button */
+.apibtn {
+  background: transparent;
+  width: 90px;
+  position: relative;
+  padding: 10px;
+  color: #1ECD97;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 50ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  border-radius: 4px;
+  font-weight: 30;
+  overflow: hidden;
+  border: 2px solid #1ECD97;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* In Progress Button */
+.apibtn-progress {
+  width: 90px;
+  color: transparent;
+}
+
+.apibtn-fill:after {
+  content: "";
+  background: #1ECD97;
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: 0;
+  display: block;
+  animation: fill 3.2s linear forwards;
+}
+
+/* Button Complete */
+.apibtn-complete {
+  padding: 10px;
+  width: 90px;
+  color: #fff;
+  pointer-events: none;
+}
+
+.apibtn-complete:after {
+  font-family: FontAwesome;
+  content: "\f00c";
+  color: #fff;
+  height: 100%;
+  padding-left: 3px;
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1ECD97;
+}
+
+/* Animation */
+@keyframes fill {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+
+
+/* Button 2*/
+.devbtn {
+  background: transparent;
+  width: 90px;
+  position: relative;
+  padding: 10px;
+  color: #1ECD97;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 50ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  border-radius: 4px;
+  font-weight: 30;
+  overflow: hidden;
+  border: 2px solid #1ECD97;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* In Progress Button */
+.devbtn-progress {
+  width: 90px;
+  color: transparent;
+}
+
+.devbtn-fill:after {
+  content: "";
+  background: #1ECD97;
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: 0;
+  display: block;
+  animation: fill 3.2s linear forwards;
+}
+
+/* Button Complete */
+.devbtn-complete {
+  padding: 10px;
+  width: 90px;
+  color: #fff;
+  pointer-events: none;
+}
+
+.devbtn-complete:after {
+  font-family: FontAwesome;
+  content: "\f00c";
+  color: #fff;
+  height: 100%;
+  padding-left: 3px;
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1ECD97;
+}
+
+/* Animation */
+@keyframes fill {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}

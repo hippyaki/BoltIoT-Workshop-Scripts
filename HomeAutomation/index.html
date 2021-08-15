@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="../../favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../favicon/favicon-16x16.png">
+        <link rel="manifest" href="../../favicon/site.webmanifest">
+        <link rel="mask-icon" href="../../favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+        <title>Home Automation Control</title>
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+        <link rel="stylesheet" href="css/main.css" type="text/css" media="all">
+        <link rel="stylesheet" href="css/weather.css" type="text/css">
+        <link rel="stylesheet" href="css/nav.css" type="text/css">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.15.0/css/all.css'>
+
+        <script type="text/javascript" src="js/control.js"></script>
+        <script type="text/javascript" src="js/weather.js"></script>
+
+
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css'>
+        
+        <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Itim&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+               
+      
+    </head>
+    
+<!---    <body style="background: #0E101C;">  --->
+    <body style="background: #141c0e;">
+ <!---   <body style="background: rgb(255,255,255); background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(122,171,189,1) 53%, rgba(1,73,76,1) 98%);">  --->
+        <nav>
+            <h1> R1 - GPIO 0  &nbsp | &nbsp  R2 - GPIO 1  &nbsp | &nbsp  R5 - GPIO 2  &nbsp | &nbsp  R6 - GPIO 3  &nbsp | &nbsp  MEETING ROOM - GPIO 4</h1>
+        </nav>
+    
+      <center>
+        <div id ="Content">
+          <div id = "buttons">  
+              <div class="api">
+                <input id="api" type="text" placeholder="Enter API KEY" >
+                <button type="button" class="apibtn" onclick="apikey_val();">Enter</button>
+              </div>
+              
+              <br><br><br><br><br><br>
+
+              <div class="device">
+                <input id="device" type="text" placeholder="Enter DEVICE ID" >
+                <button type="button" class="devbtn" onclick="deviceid_val();">Enter</button>
+              </div>
+          </div>
+          <center>
+          <div id="Floor">
+            <div id = "Phase1">
+                <button id="R1" onclick = "R1()">R1</button>
+                <button id="R2" onclick = "R2()">R2</button>
+                <button id="R3">Store</button>
+            </div>
+            <div id = "Phase2">
+               <button id="R4">Store</button>
+               <button id="R5" onclick = "R5()" >R5</button>
+               <button id="R6" onclick = "R6()">R6</button>
+            </div>
+            <div id = "Phase3">
+              <button id="R7" onclick = "R7()">Meeting Room</button>
+              <button id="R8">Control</button>
+            </div>  
+          </div>
+          </center>
+          <div id="Weather">  
+           
+                        <div class='box'>
+                          <div class='wave -one'></div>
+                          <div class='wave -two'></div>
+                          <div class='wave -three'></div>
+                          <div class="weathercon"><i class='' style=''></i></div>
+                          <div class="info">
+                            <h4 class="weather"></h4>
+                            <h2 class="location"></h2>
+                            <p class="date"></p>
+                            <h1 class="temp"></h1>
+                          </div>
+                        </div>       
+          </div>
+
+
+        </div>  
+     </center> 
+      <div id = "Extra">
+             <div class = "shut"> 
+                  <button onclick="SHUT()" id="shutbtn">Emergency Shut Down</button>
+              
+             
+                  <button onclick="isOnline()" id="motionbtn">Check Status</button>
+
+                    
+
+             </div>
+          </div>
+<!---
+    <div id = 'MyDevice'>
+        <iframe src='https://cloud.boltiot.com/control?name=BOLT8021328' style='width:50%;height:50vh'></iframe>
+        </div>    
+--->    
+</body>
+
+</html>
